@@ -36,6 +36,7 @@ conda list -n python34
 conda remove -n python34 package_nm
 ```
 
+### 端口转发
 ```bash
 ssh -N -f -L localhost:8888:localhost:8888 gitlab-demo-ci
 ```
